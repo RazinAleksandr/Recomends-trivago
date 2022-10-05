@@ -23,7 +23,7 @@ It is necessary to choose the right way for data combination, in this case we ma
 - sorted price position - position of the current price in the sorted price list
 Final dataset consist of 826842 sessions with 25 impressions and 6 features for each.
 # CNN model
-For the prediction of the last click impression we implemented various CNN models with different architectures. The best model was selected after 10 epochs of training and then predictions on the test dataset was made. The best architecture consist of 2 Convolution, 3 Dense layers with 100 nodes in each layer. 
+For the prediction of the last click impression we implemented various CNN models with different architectures. The best model was selected after 10 epochs of training and then predictions on the test dataset were made. The best architecture consist of 2 Convolution, 3 Dense layers with 100 nodes in each layer. 
 
 The used metric for the prediction is MRR metric, which is popular for the recommendation NN systems. The result of the test prediction is 0.62 on the MRR metric, the predicted data can be viewed in the Results.csv file. 
 
