@@ -25,7 +25,9 @@ Final dataset consist of 826842 sessions with 25 impressions and 6 features for 
 # CNN model
 For the prediction of the last click impression we implemented various CNN models with different architectures. The best model was selected after 10 epochs of training and then predictions on the test dataset was made. The best architecture consist of 2 Convolution, 3 Dense layers with 100 nodes in each layer. 
 
-The used metric for the prediction is MRR metric, which is popular for the recommendation NN systems. The result of the test prediction is 0.62 on the MRR metric, the predicted data can be viewed in the Results.csv file. The reciprocal rank countplot results on the test dataset:
+The used metric for the prediction is MRR metric, which is popular for the recommendation NN systems. The result of the test prediction is 0.62 on the MRR metric, the predicted data can be viewed in the Results.csv file. 
+
+The reciprocal rank countplot results on the test dataset:
 
 ![image](https://user-images.githubusercontent.com/109418051/194177177-f75550e8-8be7-478e-b765-02522d3f2b87.png)
 
